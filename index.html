@@ -1,65 +1,163 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Home</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="main.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="social.css"/>
+    <style>
+        #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 40px;
+            right: 30px;
+            z-index: 99;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            background-color: red;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        #myBtn:hover {
+            background-color: #555;
+        }
+    </style>
+
 </head>
 
-<div class="container">
-	
-	<div class="sidebar">
-	<a href="#">About</a>
-	<a href="#">Technologies</a>
-	<a href="#">Expernice</a>
-	<a href="#">Contact</a>
-	
-	</div>
-	<main>
-	<div class="card-container">
-	<img class="round" src="http://lh3.googleusercontent.com/qj5IXvq0z0m9Tv8G7MzdEb8zDr7WwO6PVLR7h-Cw4g9EMkkGJdf86UNqkm3qFc33X1GtHJsGJlCoE9DkjUaph-hQ6e4=s650" alt="user" />
-	<h3>Chervugattu Naga Veera Pavan Kumar</h3>
-	<h6>India</h6>
-	<p>Devops Engineer and <br/> System engineer</p>
-	<div class="buttons">
-		<button class="primary" href="https://wa.me/7032369494">
-			Message
-		</button>
-		<button class="primary ghost">
-			Following
-		</button>
-	</div>
-	<div class="skills">
-		<h6>Skills</h6>
-		<ul>
-			<li>UI / UX</li>
-			<li>Front End Development</li>
-			<li>HTML</li>
-			<li>CSS</li>
-			<li>JavaScript</li>
-			<li>React</li>
-			<li>Node</li>
-		</ul>
-	</div>
-</div>
+
+<body>
+
+    <div class="container">
+        <div class="sidebar">
+            <a href="#about">About</a>
+            <a href="#tech">Technologies</a>
+            <a href="#exp">Easy Tools</a>
+            <a href="#blog">Contact</a>
+        </div>
+        <main>
+
+            <section id="about">
+                <div class="card-container">
+                    <img class="round"
+                        src="http://lh3.googleusercontent.com/qj5IXvq0z0m9Tv8G7MzdEb8zDr7WwO6PVLR7h-Cw4g9EMkkGJdf86UNqkm3qFc33X1GtHJsGJlCoE9DkjUaph-hQ6e4=s650"
+                        alt="user" />
+                    <h3>Chervugattu Naga Veera Pavan Kumar</h3>
+                    <h6>India</h6>
+                    <p>
+                        Devops Engineer and <br />
+                        System engineer
+                    </p>
+
+                    <button class="button" src="https://wa.me/7032369494">
+                        Ping me
+                    </button>
+
+
+                    <div class="skills">
+                        <h6>Skills</h6>
+                        <ul>
+                            <li>Linux</li>
+                            <li>AWS & GCP cloud</li>
+                            <li>Jenkins</li>
+                            <li>Git</li>
+                            <li>MSNA</li>
+                            <li>CCNA</li>
+                            <li>Ansible</li>
+                            <li>Python</li>
+                            <li>Front End Development</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Node</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <div class="gape"></div>
+
+            <section id="tech">
+                <p>
+                    This paragraph contains a lot of lines in the source code, but the browser ignores it.
+                </p>
+
+                <p>
+                    This paragraph contains a lot of spaces in the source code, but the browser ignores it.
+                </p>
+
+                <p>
+                    The number of lines in a paragraph depends on the size of the browser window. If you resize the
+                    browser window, the number of lines in this paragraph will change.
+                </p>
+            </section>
+         
+
+            <section id="exp">
+                <p> <a href="https://webformatter.com/" target="_blank" >Format your HTML, XML, CSS, JavaScript, PHP
+                    and JSON code in a few easy steps</a></p>
+
+                <p> <a href="https://pixlr.com/x/" target="_blank" >Online photo editor</a></p>
+
+
+                <p> <a href="https://aws.amazon.com/premiumsupport/knowledge-center/s3-large-transfer-between-buckets/"
+                    target="_blank">Transfer large amounts of data from one Amazon S3 bucket to another</a></p>
 
 
 
+            </section>
+            <section id="blog">
 
-	</main>
+                <p>Here is an example of a post without a cover image. You don't always have to have a cover image.</p>
 
-	
-	<footer>
-	<a href="#" class="fa fa-facebook"></a>
-	<a href="#" class="fa fa-twitter"></a>
-	<a href="#" class="fa fa-linkedin"></a>
-	<a href="#" class="fa fa-youtube"></a>
-	<a href="#" class="fa fa-instagram"></a>
-	<a href="#" class="fa fa-pinterest"></a>
-	</footer>  
-</div>
+            </section>
+         
+
+
+        </main>
+        <footer>
+            <div class="footer-social-icons">
+                
+                <ul class="social-icons">
+                    <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+                    <li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/veera-pavan/" class="social-icon" target="_blank"> <i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/veerap1/" class="social-icon" target="_blank" rel="noopener noreferrer"> <i class="fa fa-github"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+    
+    <button onclick="topFunction()" id="myBtn" title="Go to top">👆</button>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    </div>
+
+</body>
 
 </html>
