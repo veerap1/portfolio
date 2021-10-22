@@ -53,9 +53,28 @@ section{
     background:lightgrey;
     background-clip: border-box;
     text-indent: 50px;
-
-    
-    
+   
+}
+#blog p 
+{
+  
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 50px;
+    background:lightgrey;
+    background-clip: border-box;
+    text-indent: 50px;
+}
+#tech p 
+{
+  
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 50px;
+    background:lightgrey;
+    background-clip: border-box;
+    text-indent: 50px;
+   
 }
 #exp a
 {
