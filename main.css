@@ -47,33 +47,37 @@ section{
 #exp p 
 {
   
-    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
-    border-radius: 5px;
+
     padding: 50px;
-    background:lightgrey;
     background-clip: border-box;
     text-indent: 50px;
+    border-radius: 26px;
+    background: #e0e0e0;
+    box-shadow:  -27px 27px 53px #bebebe,
+             27px -27px 53px #ffffff;
    
 }
 #blog p 
 {
   
-    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
-    border-radius: 5px;
     padding: 50px;
-    background:lightgrey;
     background-clip: border-box;
     text-indent: 50px;
+    border-radius: 26px;
+    background: #e0e0e0;
+    box-shadow:  -27px 27px 53px #bebebe,
+             27px -27px 53px #ffffff;
 }
 #tech p 
 {
   
-    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
-    border-radius: 5px;
     padding: 50px;
-    background:lightgrey;
     background-clip: border-box;
     text-indent: 50px;
+    border-radius: 26px;
+    background: #e0e0e0;
+    box-shadow:  -27px 27px 53px #bebebe,
+             27px -27px 53px #ffffff;
    
 }
 #exp a
