@@ -51,11 +51,10 @@ section{
     padding: 50px;
     background-clip: border-box;
     text-indent: 50px;
-    border-radius: 26px;
-    background: #e0e0e0;
-    box-shadow:  -27px 27px 53px #bebebe,
-             27px -27px 53px #ffffff;
-   
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow:  -5px 5px 10px #d4d4d4,
+                 5px -5px 10px #ffffff;
 }
 #blog p 
 {
@@ -63,10 +62,10 @@ section{
     padding: 50px;
     background-clip: border-box;
     text-indent: 50px;
-    border-radius: 26px;
-    background: #e0e0e0;
-    box-shadow:  -27px 27px 53px #bebebe,
-             27px -27px 53px #ffffff;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow:  -5px 5px 10px #d4d4d4,
+                 5px -5px 10px #ffffff;
 }
 #tech p 
 {
@@ -74,10 +73,10 @@ section{
     padding: 50px;
     background-clip: border-box;
     text-indent: 50px;
-    border-radius: 26px;
-    background: #e0e0e0;
-    box-shadow:  -27px 27px 53px #bebebe,
-             27px -27px 53px #ffffff;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow:  -5px 5px 10px #d4d4d4,
+                 5px -5px 10px #ffffff;
    
 }
 #exp a
